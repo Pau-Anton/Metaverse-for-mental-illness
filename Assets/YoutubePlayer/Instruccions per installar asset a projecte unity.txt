@@ -1,0 +1,17 @@
+AQUEST PACKAGE NOMÉS CONTÉ ELS SCRIPTS NECESSARIS PER FER FUNCIONAR LA PLAYLIST
+
+Per fer servir el asset que porta aquest projecte cal seguir les instruccions del GitHub.
+https://github.com/iBicha/UnityYoutubePlayer
+En resum: cal copiar manualment la carpeta "./Packages/com.ibicha.youtube-player " en el directori "./Packages" del projecte en questió i afegir en el manifest.json 
+{
+  "scopedRegistries": [
+    {
+      "name": "iBicha",
+      "url": "https://registry.npmjs.com",
+      "scopes": [ "com.ibicha" ]
+    }
+  ],
+  "dependencies": {
+    "com.ibicha.youtube-player": "2.0.2",
+
+Després podrem fer servir el UnityPackage que he creat. (YouTubePlayerPackageOnSreen(NoDependancyAsset))
