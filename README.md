@@ -1,7 +1,6 @@
-# Metaverse for mental illness
-TFG Digital metaverse for mental illnes
+# Digital Metaverse for mental illness
 
-This repository contains all files related to the TFG project of a metaverse for mental illness. 
+This repository contains all files related to the application created in the TFG project: digital metaverse for mental illness. 
 
 ## Setup files
 The setup branch contains the installator files to run the application.
