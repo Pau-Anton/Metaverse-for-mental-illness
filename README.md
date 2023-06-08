@@ -1,4 +1,4 @@
-# Metaverse-for-mental-illness
+# Metaverse for mental illness
 TFG Digital metaverse for mental illnes
 
 This repository contains all files related to the TFG project of a metaverse for mental illness. 
