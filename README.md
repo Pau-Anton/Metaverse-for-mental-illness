@@ -22,6 +22,6 @@ The UnityProject branch contains all the files of the Unity project of the full 
 
 The serverfiles branch Contains the server scripts and media accessed by the full version application of the metaverse.
 
-## UnityProjectStandAlone
+## UnityProjectUserdemo
 
-The UnityProjectStandAlone branch contains all the files of the Unity project of the userdemo version of the application. 
+The UnityProjectUserdemo branch contains all the files of the Unity project of the userdemo version of the application. 
