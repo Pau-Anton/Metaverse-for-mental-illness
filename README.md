@@ -14,13 +14,13 @@ To play the game without a server setup, you can download the userdemo version o
 ## UnityProject
 
 
-The branch UnityProject contains all the files of the Unity project of the full version of the application. 
+The UnityProject branch contains all the files of the Unity project of the full version of the application. 
 
 
 ## serverfiles
 
-Contains the server scripts and media.
+The serverfiles branch Contains the server scripts and media accessed by the full version application of the metaverse.
 
 ## UnityProjectStandAlone
 
-The branch UnityProjectStandAlone contains all the files of the Unity project of the userdemo version of the application. 
+The UnityProjectStandAlone branch contains all the files of the Unity project of the userdemo version of the application. 
