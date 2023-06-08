@@ -21,18 +21,14 @@ public class Mainmenu : MonoBehaviour
     private GameObject avatar=null;
     
 
-    public void GoToDoctorLogin()
-    {
-        SceneManager.LoadScene(4);
-    }
     public void GoToLogin()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void GoToMetaverse()
     {   
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 
     public void nextavatar(){

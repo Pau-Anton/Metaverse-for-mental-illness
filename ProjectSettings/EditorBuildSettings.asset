@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menus+ImageDisplayer/Menus/Scenes/MainMenu.unity
     guid: 731e13f04f37e2446aa3b2af41feec01
-  - enabled: 1
+  - enabled: 0
     path: Assets/Menus+ImageDisplayer/Menus/Scenes/RegisterMenu.unity
     guid: b21bb1c6c6ee4d24c943976126fc5c01
   - enabled: 1
@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ASSEMBLY/AssemblyScene.unity
     guid: dbea12b14649e684d87c41f7250f587d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Menus+ImageDisplayer/Menus/Scenes/DoctorMenu.unity
     guid: 7b0d7d3521705dd478249fbc6bcf991f
   m_configObjects: {}

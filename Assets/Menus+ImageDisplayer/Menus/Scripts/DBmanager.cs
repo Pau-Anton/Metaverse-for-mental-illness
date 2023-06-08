@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public static class DBmanager 
@@ -12,8 +13,6 @@ public static class DBmanager
     public static string prompt= "";
 
     public static string doctor;
-
-    public static string[] directories = new string[]{};
 
     public static bool LoggedIn{ get { return username!= null; } }
 

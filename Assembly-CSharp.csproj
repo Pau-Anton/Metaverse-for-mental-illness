@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{fa91de92-63d3-30f1-89b2-dc5d17763609}</ProjectGuid>
+    <ProjectGuid>{8d0f8ef8-61ba-5e8e-bf80-f677760ff1d9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -39,10 +39,8 @@
      <Compile Include="Assets\CharcterMovement\MovementStates\AimStateManager.cs" />
      <Compile Include="Assets\Enviroment\Ciconia Studio\_Shared Files\Scripts\Demo\UIButton_ShowNext.cs" />
      <Compile Include="Assets\Menus+ImageDisplayer\Menus\Scripts\DBmanager.cs" />
-     <Compile Include="Assets\Menus+ImageDisplayer\Menus\Scripts\doctorMenu.cs" />
      <Compile Include="Assets\CharcterMovement\MovementStates\MovementStateManager.cs" />
      <Compile Include="Assets\CharcterMovement\MovementStates\States\IdleState.cs" />
-     <Compile Include="Assets\Menus+ImageDisplayer\Menus\Scripts\Registration.cs" />
      <Compile Include="Assets\CharcterMovement\MovementStates\States\WalkState.cs" />
      <Compile Include="Assets\YoutubePlayer\Scripts\VideoPlayerProgress.cs" />
      <Compile Include="Assets\Menus+ImageDisplayer\Menus\Scripts\Login.cs" />
@@ -51,13 +49,10 @@
      <Compile Include="Assets\CharcterMovement\MovementStates\States\SitState.cs" />
      <Compile Include="Assets\YoutubePlayer\Scripts\PlaylistPlayerController.cs" />
      <Compile Include="Assets\CharcterMovement\MovementStates\States\OpeningState.cs" />
-     <Compile Include="Assets\Menus+ImageDisplayer\Menus\Scripts\DoctorLogin.cs" />
      <Compile Include="Assets\Enviroment\Scripts\OpenDoorAuto.cs" />
      <Compile Include="Assets\Menus+ImageDisplayer\Plugins\AnotherFileBrowser\FileBrowser.cs" />
      <Compile Include="Assets\Menus+ImageDisplayer\Menus\Scripts\changeInput.cs" />
      <Compile Include="Assets\Enviroment\Scripts\OpenDoor.cs" />
-     <Compile Include="Assets\Menus+ImageDisplayer\Menus\Scripts\DotorAPI.cs" />
-     <Compile Include="Assets\Menus+ImageDisplayer\Menus\Scripts\FileBrowserUpdate.cs" />
      <Compile Include="Assets\ASSEMBLY\SceneController.cs" />
      <Compile Include="Assets\Enviroment\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCam.cs" />
      <Compile Include="Assets\Enviroment\Ciconia Studio\_Shared Files\Scripts\Demo\SuperCamera.cs" />
@@ -341,19 +336,19 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows.Forms">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Assets\Menus+ImageDisplayer\Plugins\AnotherFileBrowser\Plugins\System.Windows.Forms.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Assets\Menus+ImageDisplayer\Plugins\AnotherFileBrowser\Plugins\System.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="Ookii.Dialogs">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Assets\Menus+ImageDisplayer\Plugins\AnotherFileBrowser\Plugins\Ookii.Dialogs.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Assets\Menus+ImageDisplayer\Plugins\AnotherFileBrowser\Plugins\Ookii.Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -722,91 +717,91 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="YoutubePlayer">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\YoutubePlayer.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\YoutubePlayer.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\PAU\UPC\TFG Metaverso\UNITY PROJ\FinalAssembly\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>C:\PAU\UPC\TFG_Metaverso\UNITY_PROJ\FinalAssembly STandAlone\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

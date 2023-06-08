@@ -14,35 +14,22 @@ public class Login : MonoBehaviour
     public Button submitButton; 
 
     public void CallLogin(){
-        StartCoroutine(LogIn());
+        LogIn();
     }
 
     public void GoToMainmenu(){
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 
-    IEnumerator LogIn(){
+    public void LogIn(){
 
-        WWWForm form = new WWWForm();
-        form.AddField("username", nameField.text);
-        form.AddField("password", passwordField.text);
-
-        UnityWebRequest www = UnityWebRequest.Post("http://localhost/sqlconnect/login.php", form);
-        yield return www.SendWebRequest();
-        string wwwtext = www.downloadHandler.text;
+        if(nameField.text=="userdemo" && passwordField.text=="userdemo"){
         
-        Debug.Log(wwwtext);
-
-        if (wwwtext[0] !='0') //failed
-        {
-            Debug.Log("User login failed. Error #"+ wwwtext);
-        }
-        else{
-            //extract info from server to DBmanager
             DBmanager.username = nameField.text;
-            DBmanager.pathology = int.Parse(wwwtext.Split('\t')[1]); 
+            DBmanager.pathology = 0; 
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
+    
         
     }
 

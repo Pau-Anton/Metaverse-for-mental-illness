@@ -2,16 +2,12 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AimStateManager
-    - DoctorLogin
-    - DotorAPI
-    - FileBrowserUpdate
     - ImageDisplayer
     - Login
     - Mainmenu
     - MovementStateManager
     - OpenDoor
     - OpenDoorAuto
-    - Registration
     - SceneController
     - YoutubePlayer.PlaylistPlayerController
     - YoutubePlayer.VideoPlayerProgress
@@ -52,11 +48,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
-    - UnityEngine.UI.RawImage
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
@@ -120,58 +114,10 @@ ScriptsOnlyBuild:
     methodName: GoToLogin
   - assembly: Assembly-CSharp
     fullTypeName: Mainmenu
-    methodName: GoToDoctorLogin
-  - assembly: Assembly-CSharp
-    fullTypeName: Mainmenu
     methodName: GoToMetaverse
   - assembly: Assembly-CSharp
     fullTypeName: Mainmenu
     methodName: nextavatar
-  - assembly: Assembly-CSharp
-    fullTypeName: FileBrowserUpdate
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: DotorAPI
-    methodName: GoToMainmenu
-  - assembly: Assembly-CSharp
-    fullTypeName: Registration
-    methodName: CallRegister
-  - assembly: Assembly-CSharp
-    fullTypeName: Registration
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: Registration
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: Registration
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: FileBrowserUpdate
-    methodName: CallUploadImage
-  - assembly: Assembly-CSharp
-    fullTypeName: Registration
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: DotorAPI
-    methodName: GoToMainmenu
-  - assembly: Assembly-CSharp
-    fullTypeName: FileBrowserUpdate
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: FileBrowserUpdate
-    methodName: CallUploadImage
-  - assembly: Assembly-CSharp
-    fullTypeName: FileBrowserUpdate
-    methodName: OpenFileBrowser
-  - assembly: Assembly-CSharp
-    fullTypeName: Registration
-    methodName: CallRegister
-  - assembly: Assembly-CSharp
-    fullTypeName: Registration
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: Registration
-    methodName: verifyInputs
   - assembly: Assembly-CSharp
     fullTypeName: Login
     methodName: verifyInputs
@@ -202,30 +148,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: openControlls
-  - assembly: Assembly-CSharp
-    fullTypeName: DoctorLogin
-    methodName: GoToMainmenu
-  - assembly: Assembly-CSharp
-    fullTypeName: DoctorLogin
-    methodName: CallLogin
-  - assembly: Assembly-CSharp
-    fullTypeName: DoctorLogin
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: DoctorLogin
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: DoctorLogin
-    methodName: verifyInputs
-  - assembly: Assembly-CSharp
-    fullTypeName: DoctorLogin
-    methodName: CallLogin
-  - assembly: Assembly-CSharp
-    fullTypeName: DoctorLogin
-    methodName: GoToMainmenu
-  - assembly: Assembly-CSharp
-    fullTypeName: DoctorLogin
-    methodName: verifyInputs
   sceneClasses:
     Assets/ASSEMBLY/AssemblyScene.unity:
     - Class: 1
@@ -254,8 +176,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -267,51 +187,51 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1566}
-    - Class: 114
       Script: {instanceID: 1568}
     - Class: 114
       Script: {instanceID: 1570}
     - Class: 114
       Script: {instanceID: 1572}
     - Class: 114
-      Script: {instanceID: 1718}
+      Script: {instanceID: 1574}
     - Class: 114
-      Script: {instanceID: 1758}
+      Script: {instanceID: 1720}
     - Class: 114
-      Script: {instanceID: 2114}
+      Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 2660}
+      Script: {instanceID: 2116}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 2818}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 2820}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3480}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 4152}
+      Script: {instanceID: 3482}
     - Class: 114
-      Script: {instanceID: 4250}
+      Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 5466}
+      Script: {instanceID: 5328}
     - Class: 114
-      Script: {instanceID: 5532}
+      Script: {instanceID: 5468}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 5534}
     - Class: 114
-      Script: {instanceID: 6138}
+      Script: {instanceID: 6122}
     - Class: 114
-      Script: {instanceID: 6176}
+      Script: {instanceID: 6140}
+    - Class: 114
+      Script: {instanceID: 6178}
     - Class: 114
       Script: {instanceID: 6352}
     - Class: 114
@@ -323,11 +243,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7172}
     - Class: 114
-      Script: {instanceID: 8312}
+      Script: {instanceID: 7350}
     - Class: 114
-      Script: {instanceID: 8342}
+      Script: {instanceID: 8314}
     - Class: 114
-      Script: {instanceID: 31562}
+      Script: {instanceID: 8344}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -350,73 +270,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 328
       Script: {instanceID: 0}
-    Assets/Menus+ImageDisplayer/Menus/Scenes/DoctorMenu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1566}
-    - Class: 114
-      Script: {instanceID: 1570}
-    - Class: 114
-      Script: {instanceID: 1758}
-    - Class: 114
-      Script: {instanceID: 2732}
-    - Class: 114
-      Script: {instanceID: 3288}
-    - Class: 114
-      Script: {instanceID: 4406}
-    - Class: 114
-      Script: {instanceID: 5306}
-    - Class: 114
-      Script: {instanceID: 5326}
-    - Class: 114
-      Script: {instanceID: 5532}
-    - Class: 114
-      Script: {instanceID: 6000}
-    - Class: 114
-      Script: {instanceID: 6176}
-    - Class: 114
-      Script: {instanceID: 6352}
-    - Class: 114
-      Script: {instanceID: 6636}
-    - Class: 114
-      Script: {instanceID: 6710}
-    - Class: 114
-      Script: {instanceID: 7172}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Menus+ImageDisplayer/Menus/Scenes/LoginMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -432,34 +285,32 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1566}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1572}
     - Class: 114
-      Script: {instanceID: 1758}
+      Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4408}
     - Class: 114
-      Script: {instanceID: 4634}
+      Script: {instanceID: 4636}
     - Class: 114
-      Script: {instanceID: 5306}
+      Script: {instanceID: 5308}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 5328}
     - Class: 114
-      Script: {instanceID: 5532}
+      Script: {instanceID: 5534}
     - Class: 114
-      Script: {instanceID: 6176}
+      Script: {instanceID: 6178}
     - Class: 114
       Script: {instanceID: 6352}
     - Class: 114
@@ -511,8 +362,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -524,29 +373,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1566}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1572}
     - Class: 114
-      Script: {instanceID: 1758}
+      Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 2286}
+      Script: {instanceID: 2288}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 4420}
+      Script: {instanceID: 4422}
     - Class: 114
-      Script: {instanceID: 4712}
+      Script: {instanceID: 4714}
     - Class: 114
-      Script: {instanceID: 4924}
+      Script: {instanceID: 4926}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 5328}
     - Class: 114
-      Script: {instanceID: 5532}
+      Script: {instanceID: 5534}
     - Class: 114
-      Script: {instanceID: 6176}
+      Script: {instanceID: 6178}
     - Class: 114
       Script: {instanceID: 6352}
     - Class: 114
@@ -558,81 +407,6 @@ ScriptsOnlyBuild:
     - Class: 128
       Script: {instanceID: 0}
     - Class: 137
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Menus+ImageDisplayer/Menus/Scenes/RegisterMenu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1566}
-    - Class: 114
-      Script: {instanceID: 1570}
-    - Class: 114
-      Script: {instanceID: 1758}
-    - Class: 114
-      Script: {instanceID: 2416}
-    - Class: 114
-      Script: {instanceID: 2732}
-    - Class: 114
-      Script: {instanceID: 3288}
-    - Class: 114
-      Script: {instanceID: 4076}
-    - Class: 114
-      Script: {instanceID: 4406}
-    - Class: 114
-      Script: {instanceID: 5306}
-    - Class: 114
-      Script: {instanceID: 5326}
-    - Class: 114
-      Script: {instanceID: 5450}
-    - Class: 114
-      Script: {instanceID: 5532}
-    - Class: 114
-      Script: {instanceID: 6176}
-    - Class: 114
-      Script: {instanceID: 6352}
-    - Class: 114
-      Script: {instanceID: 6636}
-    - Class: 114
-      Script: {instanceID: 6710}
-    - Class: 114
-      Script: {instanceID: 6986}
-    - Class: 114
-      Script: {instanceID: 7172}
-    - Class: 114
-      Script: {instanceID: 7298}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -755,12 +529,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: 
     className: CinemachineCameraOffset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: doctorMenu
   - hash:
       serializedVersion: 2
       Hash: 6225eb0973ab0af667bc5f9d1b1b18de
@@ -1105,12 +873,6 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 930c956fa46e6f173610e299b5bfc83b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Registration
-  - hash:
-      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1435,12 +1197,6 @@ ScriptsOnlyBuild:
     className: CinemachinePostProcessing
   - hash:
       serializedVersion: 2
-      Hash: 855c8484b0a443953fe14a2847584cdb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoctorLogin
-  - hash:
-      serializedVersion: 2
       Hash: 2ce2187bbae6f802011f568630bd3d1f
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1574,12 +1330,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DotorAPI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDragMessageListener
@@ -1621,12 +1371,6 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: c897e4477bc74054919b3fc05c425d35
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FileBrowserUpdate
-  - hash:
-      serializedVersion: 2
       Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1643,6 +1387,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: de0524022df8ce6f88b40fbc89578d97
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1789,7 +1539,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 09f0e59d267b9b3503dffc2515531b66
+      Hash: 6ba6ac9084c68ad9418740486e869f30
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ImageDisplayer
@@ -1853,17 +1603,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: de0524022df8ce6f88b40fbc89578d97
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneController
   platform: 19
   scenePathNames:
   - Assets/Menus+ImageDisplayer/Menus/Scenes/MainMenu.unity
-  - Assets/Menus+ImageDisplayer/Menus/Scenes/RegisterMenu.unity
   - Assets/Menus+ImageDisplayer/Menus/Scenes/LoginMenu.unity
   - Assets/ASSEMBLY/AssemblyScene.unity
-  - Assets/Menus+ImageDisplayer/Menus/Scenes/DoctorMenu.unity
-  playerPath: C:/PAU/UPC/TFG Metaverso/UNITY PROJ/FinalAssembly/BUILDS/Windows/x64/FinalVersion2/METADATION.exe
+  playerPath: C:/PAU/UPC/TFG_Metaverso/UNITY_PROJ/FinalAssembly STandAlone/BUILDS/Windows/x64/METADATION.exe
